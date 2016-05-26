@@ -1,7 +1,7 @@
 module.exports = {
 	extends: [
-		'./.eslint/legacy',
-		'./.eslint/rules/es6',
+		'./packages/legacy',
+		'./packages/rules/es6',
 	].map(require.resolve),
 	parserOptions: {
 		ecmaVersion: 6,
