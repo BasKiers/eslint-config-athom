@@ -4,6 +4,15 @@
 
 Based on the [Airbnb](https://github.com/airbnb/javascript) styleguide
 
+## Usage
+
+This package exports a ESLint configuration for your usage. It requires `eslint`.
+
+1. `npm install --save-dev eslint-config-athom eslint`
+2. add `"extends": "athom"` to your .eslintrc
+3. optional: copy the `.editorconfig` file to the root of your project
+
+
 ## Table of Contents
 
   1. [Types](#types)
