@@ -42,5 +42,22 @@ module.exports = {
 			exceptions: ['-', '+'],
 			markers: ['=', '!']           // space here to support sprockets directives
 		}],
+		// rest params are not available yet
+		'prefer-rest-params': 0,
+		// allow (not so) confusing arrow
+		'no-confusing-arrow': 0,
+		// Do not enforce padding within blocks
+		'padded-blocks': 0,
+		// Do not enforce disallowwing console
+		'no-console': 0,
+		// No case declerations disable because of Webstorm formatting bug
+		'no-case-declerations': 0,
+		// Allow for-in statement
+		'no-restricted-syntax': [
+			2,
+			'DebuggerStatement',
+			'LabeledStatement',
+			'WithStatement',
+		],
 	},
 };
