@@ -59,5 +59,10 @@ module.exports = {
 			'LabeledStatement',
 			'WithStatement',
 		],
+		'new-cap': [2, {
+			newIsCap: true,
+			// Do not display a notice when using CommandClass methods
+			{ "newIsCapExceptionPattern": "^node.CommandClass\.." },
+		}],
 	},
 };
