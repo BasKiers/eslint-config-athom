@@ -4,7 +4,7 @@ module.exports = {
 		'./packages/rules/es6',
 	].map(require.resolve),
 	parserOptions: {
-		ecmaVersion: 6,
+		ecmaVersion: 8,
 		sourceType: 'script',
 	},
 	globals: {
